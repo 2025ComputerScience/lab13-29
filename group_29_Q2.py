@@ -1,7 +1,7 @@
+!sudo apt update
+!sudo apt install tesseract-ocr tesseract-ocr-chi-tra
 
-import pytesseract
-from PIL import Image
-import cv2
+!pip install pytesseract
 
 # 開啟圖片
 image = Image.open("G29.png")
